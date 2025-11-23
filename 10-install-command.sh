@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 USERID=$(id -u) # only user id shows and ,in brackets command excute after store the value USERID variable

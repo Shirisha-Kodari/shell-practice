@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#pass the value outside 
 PERSON1=$1
 PERSON2=$2
 

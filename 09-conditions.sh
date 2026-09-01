@@ -15,7 +15,9 @@
 #     echo "Given number $NUMBER is not less than 10"
 # fi 
 
-NUMBER=12
+NUMBER=12 
+echo "Enter a number:"
+read NUMBER
 if [ $NUMBER -lt 15 ] 
 then  
    echo "given number $NUMBER is less than 15"

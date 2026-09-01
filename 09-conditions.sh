@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NUMBER=$1
+# NUMBER=$1
 
 # -gt --> greater than
 # -lt --> less than
@@ -15,9 +15,9 @@ NUMBER=$1
 #     echo "Given number $NUMBER is not less than 10"
 # fi 
 
-
+NUMBER=$1
 if [ $NUMBER -lt 15 ] 
-then 
+then  
    echo "given number $NUMBER is less than 15"
 
 else

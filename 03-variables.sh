@@ -1,7 +1,8 @@
 #!/bin/bash
-
-echo "hi siva , how are you?"
-echo "hi vamshi, iam good what abou you?"
+PERSON1=$1
+PERSON=$2
+echo "hi $PERSON1 , how are you?"
+echo "hi $PERSON2, iam good what abou you?"
 echo "yeah, iam doing great"
 
 # when we print information we must keep ""

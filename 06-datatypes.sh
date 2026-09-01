@@ -15,8 +15,14 @@
 
 #VARIABLE=$(COMMAND)->excute command and take output store variable 
 
-NAME="SHIRISHA"
-AGE="25"
+# NAME="SHIRISHA"
+# AGE="25"
 
-TIMESTAMP=$(date)
-echo "excute timestamp at: $TIMESTAMP"
+# TIMESTAMP=$(date)
+# echo "excute timestamp at: $TIMESTAMP"
+
+
+
+HOSTNAME=$(hostname)
+
+echo "My server name is: $HOSTNAME"

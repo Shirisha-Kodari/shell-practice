@@ -15,4 +15,4 @@ echo "first city: ${CITIES[0]}"
 echo "first city: ${CITIES[2]}"
 echo "first city: ${CITIES[3]}"
 
-echo "all cities: ${CITIES[@]}"
+echo "all cities: ${CITIES[@]}" 

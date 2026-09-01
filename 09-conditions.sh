@@ -8,9 +8,20 @@ NUMBER=$1
 # -ne --> not equal
 # fi --> if condition ended
 
-if [ $NUMBER -lt 10 ]
-then
-    echo "Given number $NUMBER is less than 10"
+# if [ $NUMBER -lt 10 ]
+# then
+#     echo "Given number $NUMBER is less than 10"
+# else
+#     echo "Given number $NUMBER is not less than 10"
+# fi 
+
+
+if [ $NUMBER -lt 15] 
+then 
+   echo "given number $NUMBER is less than 15"
+
 else
-    echo "Given number $NUMBER is not less than 10"
+ 
+  echo "given number $NUMBER is not less than 15"
+
 fi 

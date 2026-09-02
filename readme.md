@@ -28,5 +28,12 @@ sh script-name.sh value1 value2
                       $1     $2
 
 
+$?-->prevous command status 
+
+exit status previous command output store in $?
+
+0       → Success
+1, 2... → Failure
+
 
 

@@ -2,9 +2,9 @@
 
 echo "install nginx ..successfully"
 
- dnf install nginx -y 
+ sudo dnf install nginx -y 
 
-if [$? - eq 0] 
+if [ $? -eq 0 ] #0-->success and 1,2 -->failed 
  then 
  echo "install nginx successfully" 
  sudo systemctl start nginx
@@ -12,7 +12,7 @@ if [$? - eq 0]
 
 echo "Nginx is running"
 else
- exit1 
+ exit 1 
 
 fi 
 

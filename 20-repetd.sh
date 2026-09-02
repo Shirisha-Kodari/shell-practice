@@ -4,9 +4,15 @@
 
 LOGFILE="old_logs.txt"
 
-find /var/log -type f -mtime 4 > "$LOGFILE"
+sudo find /var/log -type f -mtime 4 > "$LOGFILE"
 
-echo "4 days old logs stored successfully"
+if [ $? -eq 0 ]
+then
+    echo "4 days old logs stored successfully"
+else
+    echo "Failed to find logs"
+    exit 1
+fi
 
 # str="missap"
 

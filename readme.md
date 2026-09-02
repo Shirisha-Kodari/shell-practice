@@ -1,5 +1,11 @@
 shell script:
 
+# #!/bin/bash:
+#!-->
+/bash/shell/-->it is program in linux system bounrne shell 
+
+in linux differen shell 
+
 1. how to run shell script ?
  sh <filename>.sh or sh <filename>
  here we write file filename.sh 
@@ -20,6 +26,7 @@ $1->first argument ,$2->2nd argument, $3->3rd argument
 sh script-name.sh value1 value2
                        ↓      ↓
                       $1     $2
+
 
 
 

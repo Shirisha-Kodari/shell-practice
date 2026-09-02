@@ -14,3 +14,4 @@ while IFS= read -r line #internal field separater by deafault taking line, read 
 do
     echo $line # lone-> variable and print line 
 done < 17-set.sh
+

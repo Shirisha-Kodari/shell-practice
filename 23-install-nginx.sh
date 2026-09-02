@@ -2,7 +2,7 @@
 
 USERID=$(id -u) # $ ecute command id -u and take output store in var USERID 
 
-if [ $USERID -ne 0 ]  #equal to 0 and not equal to then exit 
+if [ $USERID -ne 0 ]  #equal to 0 and not equal to then exit 1000 not equal to 0 
 
 then
     echo "ERROR:: Please run this script with root access"
@@ -11,7 +11,9 @@ else
     echo "You are running with root access"
 fi
 
-LOGFILE="nginx.log" #create log file and store logs in nginx.log  
+LOGFILE="nginx.log"    #create log file and store logs in nginx.log  
+
+
 echo "install nginx ..successfully"
 
  dnf install nginx -y > "$LOGFILE" 2>&1  #> append content in file and overite 
@@ -32,3 +34,5 @@ else
 
 fi 
 
+
+#sudo sh 23-install-nginx.sh

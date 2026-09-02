@@ -25,4 +25,4 @@
 
 HOSTNAME=$(hostname)  #hostname is command linux cmd ecute and store output in variable HOSTNAME 
 
-echo "My server name is: $HOSTNAME"
+echo "My server name is: $HOSTNAME" #print output 

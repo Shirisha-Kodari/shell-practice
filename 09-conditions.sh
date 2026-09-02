@@ -27,3 +27,6 @@ else
   echo "given number $NUMBER is not less than 15"
 
 fi 
+
+# the give leass tha equal to 15 ex: 12<15 the print this values 
+# not qual to 15 then 
